@@ -121,3 +121,30 @@ header nav a:visited{
     color: #b89562;
     letter-spacing: 4px;
 }
+
+@media (max-width: 768px) {
+    .hero h1{
+        font-size: 65px;
+    }
+
+    header{
+        padding: 25px 20px;
+    }
+
+    header nav{
+        gap: 6px;
+    }
+
+    .hero p{
+        left: 20px;
+        bottom: 45px;
+        max-width: 300px;
+        font-size: 12px;
+    }
+
+    .hero>a{
+        right: 20px;
+        bottom: 20px;
+        font-size: 10px;
+    }
+}
