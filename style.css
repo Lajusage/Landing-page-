@@ -122,30 +122,52 @@ header nav a:visited{
     letter-spacing: 4px;
 }
 
+
 @media (max-width: 768px) {
-    .hero h1{
+
+    header {
+        padding: 25px 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+
+    header nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    header nav a {
+        font-size: 11px;
+    }
+
+    header > a {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .hero h1 {
         font-size: 55px;
         left: 20px;
+        bottom: 110px;
     }
 
-    header{
-        padding: 25px 20px;
-    }
-
-    header nav{
-        gap: 6px;
-    }
-
-    .hero p{
+    .hero p {
         left: 20px;
-        bottom: 45px;
-        max-width: 300px;
+        bottom: 55px;
+        max-width: 85%;
         font-size: 12px;
+        line-height: 1.6;
     }
 
-    .hero>a {
+    .hero > a {
         right: 20px;
-        bottom: 20px;
+        bottom: 15px;
         font-size: 10px;
     }
+
 }
